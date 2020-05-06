@@ -22,24 +22,30 @@ body {
 
 a, em, strong {
     font-style: normal;
-    font-weight: bold;
+    color: #d32f2f;
+    text-decoration: none;
 }
-
+a:hover {
+    color: #ffb400;
+    text-decoration: none;
+}
 h1 {
     font-family: 'Lora', serif;
     color: #d32f2f;
 }
 
 h1 a {
+     text-decoration: none;
     color: #d32f2f;
 }
 
 h1 a:hover {
-    color: #7a4083;
+    text-decoration: none;
+    color: #ffb400;
 }
 
-h2, h3, h4, h5, h6 {
-    color:#000000;
+h2, h4, h5, h6 {
+    color:#d32f2f;
 }
 
 hr {
@@ -82,7 +88,7 @@ blockquote {
 blockquote p {
     margin: 0 0 .5rem 0;
     padding: 0;
-    font-family: Times, 'Times New Roman', serif;
+    font-family: 'Lucida Console', Monaco, monospace;
     font-style: italic;
     font-weight: 200;
     font-size: 125%;
@@ -102,6 +108,8 @@ dl dt {
     float: left;
     font-weight: bold;
     font-size: 95%;
+     color: #d32f2f;
+
 }
 
 dl dd:before {
@@ -159,7 +167,7 @@ table {
 }
 
 table tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: #ffb400;
 }
 
 table tr td, table tr th {
