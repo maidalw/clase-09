@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -5,10 +7,10 @@ html, body {
 
 body {
     color: #000;
-    background: linear-gradient(180deg, rgba(225, 228, 239, 0.8) 200px, rgba(225, 228, 239, 0.9) 300px, rgba(225, 228, 239, 1) 400px), url('image-bg.jpg');
+    background: linear-gradient(180deg, rgba(252, 255, 250, 0.5) 200px, rgba(252, 255, 250, 0.8) 300px, rgba(252, 255, 250, 1) 400px), url('image-bg.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gudea', sans-serif;
     line-height: 1.4;
 }
 
@@ -24,12 +26,12 @@ a, em, strong {
 }
 
 h1 {
-    font-family: Georgia, serif;
-    color: #6d2b65;
+    font-family: 'Lora', serif;
+    color: #d32f2f;
 }
 
 h1 a {
-    color: #6d2b65;
+    color: #d32f2f;
 }
 
 h1 a:hover {
@@ -37,7 +39,7 @@ h1 a:hover {
 }
 
 h2, h3, h4, h5, h6 {
-    color:#020e49;
+    color:#000000;
 }
 
 hr {
